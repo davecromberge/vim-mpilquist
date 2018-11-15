@@ -1,6 +1,8 @@
 " Don't try to be backwards compatible
 set nocompatible
 
+let mapleader = " "
+
 " Load file-type specific plugins and indent definitions
 filetype plugin indent on
 

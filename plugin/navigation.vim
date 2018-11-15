@@ -29,3 +29,9 @@ let g:ctrlp_by_filename = 0
 let g:ctrlp_dotfiles = 1
 
 nnoremap <f1> :NERDTreeToggle<CR>
+
+let NERDTreeQuitOnOpen = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+
+nmap - :nerdtreefind<cr>

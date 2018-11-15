@@ -3,14 +3,16 @@ filetype on
 filetype off
 
 set rtp+=~/.vim/bundle/vundle/
+set rtp+=/usr/local/opt/fzf
 call vundle#rc()
-
 
 Bundle 'gmarik/vundle'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'kien/ctrlp.vim'
 Bundle 'tpope/vim-fugitive'
 
+
+Bundle 'junegunn/fzf.vim'
 Bundle 'closetag.vim'
 Bundle 'sjl/gundo.vim'
 
@@ -30,5 +32,6 @@ Bundle 'vim-scripts/copy-as-rtf'
 Bundle 'vim-scripts/camelcasemotion'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'Shougo/neocomplcache'
+Bundle 'ludovicchabant/vim-gutentags'
 
 filetype plugin indent on

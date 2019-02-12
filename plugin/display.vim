@@ -21,4 +21,4 @@ augroup END
 highlight OverLength ctermbg=Magenta ctermfg=white guibg=#592929
 match OverLength /\%141v./
 
-colorscheme solarized
+colorscheme industry
